@@ -1,0 +1,20 @@
+{
+  "name": "ga-openai-random-image-generator",
+  "version": "1.0.0",
+  "description": "openai image generator with node ",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index",
+    "dev": "nodemon index"
+  },
+  "author": "Gil Aguilar",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "openai": "^3.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
