@@ -33,6 +33,8 @@ const generateImage = async (req, res) => {
       console.log(error.message);
     }
 
+    // If we try to run the post command on a hard coded search it won't return
+    // We need to add the prompt and size in postman on the 
     res.status(400).json({
       success: false,
       error: 'The image could not be generated',
